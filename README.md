@@ -42,7 +42,9 @@ This script uses an ssh key to authenticate with remote machines. This is not re
 
 
 sql to create database schema as used by this script.
+
 I use the database name 'media'. Feel free to use what you like, but make sure to update the python script as apropriate.
+
 CREATE TABLE `isComplete` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `detected` datetime DEFAULT NULL,
